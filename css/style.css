@@ -20,6 +20,7 @@ header{
 
     font-family: 'Urbanist', sans-serif;
     font-size: 25px;
+    color: white;
 }
 
 header p{
@@ -38,7 +39,7 @@ body{
     margin-top: 130px;
     padding: 35px;
 
-    background-color:whitesmoke;
+    background-image: url(/img/bg.jpeg);
 }
 
 .form-container{
@@ -46,29 +47,35 @@ body{
     flex-direction: column;
     justify-content: center;
 
-    border:2px solid blanchedalmond;
+    border:2px solid rgba(40, 96, 122, 0.774);
     border-radius: 5px;
     
     font-family: 'Urbanist', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
+    
 
     padding: 40px;
     margin: 20px;
 
 
 
-    background-color: blanchedalmond;
+    background-color:rgba(40, 96, 122, 0.774);
     
 
     width: 40rem;
     max-height: 1100px;
     
 
-
+    color: white;
 }
 
 .name{
     padding-bottom: 20px;
+}
+
+
+.name form{
+    padding-top: 6px;
 }
 
 .name input{
@@ -76,11 +83,18 @@ body{
     height: 2rem;
     border:2px solid #dadada;
     border-radius: 5px;
+
+    font-size: 16px;
+    padding-left: 10px ;
 }
 
 
 .email{
     padding-bottom: 20px;
+}
+
+.email form{
+    padding-top: 6px;
 }
 
 
@@ -89,6 +103,9 @@ body{
     height: 2rem;
     border:2px solid #dadada;
     border-radius: 5px;
+
+    font-size: 16px;
+    padding-left: 10px ;
 }
 
 
@@ -96,11 +113,19 @@ body{
     padding-bottom: 20px;
 }
 
+
+.age form{
+    padding-top: 6px;
+}
+
 .age input{
     width: 100%;
     height: 2rem;
     border:2px solid #dadada;
     border-radius: 5px;
+
+    font-size: 16px;
+    padding-left: 10px ;
 }
 
 .age span{
@@ -112,11 +137,20 @@ body{
     padding-bottom: 20px;
 }
 
+
+.role form{
+    
+}
+
 .role select{
-    width: 100%;
+    margin-top: 6px;
+    width: 102%;
     height: 2rem;  
     border:2px solid #dadada;
     border-radius: 5px;
+
+    font-size: 16px;
+    padding-left: 10px ;
 }
 
 
@@ -125,7 +159,7 @@ body{
 }
 
 .recommend form{
-    padding-top: 5px;
+    padding-top: 6px;
 }
 
 
@@ -134,10 +168,14 @@ body{
 }
 
 .feature select{
-    width: 100%;
+    margin-top: 6px;
+    width: 102%;
     height: 2rem;  
     border:2px solid #dadada;
     border-radius: 5px;
+
+    font-size: 16px;
+    padding-left: 10px ;
 }
 
 .improved {
@@ -145,7 +183,7 @@ body{
 }
 
 .improved form{
-    padding-top: 5px;
+    padding-top: 6px;
 }
 
 
@@ -153,11 +191,19 @@ body{
     padding-bottom: 10px;
 }
 
+.comment form{
+    padding-top: 6px;
+}
+
+
 .comment textarea{
+
     width: 100%;
     height: 7rem;  
     border:2px solid #dadada;
     border-radius: 5px;
+
+    font-size: 16px;
 }
 
 .submit input{
@@ -167,4 +213,14 @@ body{
     border-radius: 5px;
 
     background-color: #37af65;
+
+    color: white;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.submit input:hover{
+    background-color: #267444;
 }
