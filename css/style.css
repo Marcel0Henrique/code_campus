@@ -39,7 +39,7 @@ body{
     margin-top: 160px;
     padding: 35px;
 
-    background-image: url(../img/bg.jpeg);
+    background-image: url("https://raw.githubusercontent.com/Marcel0Henrique/code_campus/master/img/bg.jpeg");
 }
 
 .form-container{
