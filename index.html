@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Campus</title>
+</head>
+<body>
+    <div class="header"><!--O cabeçalho da pagina, onde está o titulo-->
+        <h1>Code Campus</h1>
+        <p>Obrigado por ajudar o time a sempre melhorar a plataforma</p>
+    </div>
+
+    <!--O formulario a pagina-->
+    <div class="form-container">
+
+        <!--Campo nome-->
+        <div class="name">
+            Nome
+            <form>
+
+                <input type="text" required placeholder="Digite seu nome"> <!--Campo Obrigatorio-->
+
+            </form>
+        </div>
+
+
+        <!--Campo nome-->
+        <div class="email">
+            Email
+            <form>
+
+                <input type="email" required placeholder="Digite seu email">
+
+            </form>
+
+        </div>
+
+
+        <!--Campo nome-->
+        <div class="age">
+            Idade <span>(Opcional)</span> <!--Spa para ficar na mesma linha-->
+            <form>
+
+                <input type="number" min="1" max="99" placeholder="Idade">
+
+            </form>
+
+        </div>
+
+
+        <!--Campo ocupação-->
+        <div class="role">
+            O que melhor descreve sua ocupação?
+            <select>
+
+                <option disabled selected>Ocupação</option><!--Destiva o campo-->
+                <option>Estudante</option>
+                <option>Estágiario</option>
+                <option>Empregado</option>
+                <option>Prefiro não dizer</option>
+                <option>Outro</option>
+
+            </select>
+
+        </div>
+
+
+        <!--Campo recomendação-->
+        <div class="recommend">
+            Você recomendaria o Code Campus a um amigo?
+
+            <form>
+
+                <input type="radio" value="recommend"> <span>Definitivamente</span>
+                <input type="radio" value="recommend"> <span>Talvez</span>
+                <input type="radio" value="recommend"> <span>Não tenho certeza</span>
+            
+            </form>
+
+        </div>
+
+
+
+        <!--Campo gostar-->
+        <div class="feature">
+            O que você mais gosta no Code Campus?
+
+            <select>
+
+                <option disabled selected>Escolha uma opção</option>
+                <option>Desafios</option>
+                <option>Projetos</option>
+                <option>Comunidade</option>
+                <option>Open Source</option>
+
+            </select>
+
+        </div>
+
+
+        <!--Campo melhorias-->
+        <div class="improved">
+
+            O que você gostaria de ver melhorar?
+            <form>
+
+                <input type="checkbox" value="improved"> <span>Projetos Front End</span>
+                <input type="checkbox" value="improved"> <span>Projetos Back End</span>
+                <input type="checkbox" value="improved"> <span>Desafios</span>
+                <input type="checkbox" value="improved"> <span>Videos</span>
+                <input type="checkbox" value="improved"> <span>Wiki</span>
+                <input type="checkbox" value="improved"> <span>Cursos Adicionais</span>
+                <input type="checkbox" value="improved"> <span>Comunidade Open Source</span>
+
+            </form>
+
+
+        </div>
+
+
+
+        <!--Campo comentario-->
+        <div class="comment">
+
+            Algum comentario ou sugestão?
+            <form action="">
+                
+
+                <textarea placeholder="Digite aqui seu comentario.."></textarea>
+
+            </form>
+
+        </div>
+
+
+        <!--Campo botão-->
+        <div class="submit">
+
+            <form action="">
+
+                <input type="submit" value="Enviar">
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
