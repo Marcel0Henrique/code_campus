@@ -39,7 +39,7 @@ body{
     margin-top: 130px;
     padding: 35px;
 
-    background-image: url(/img/bg.jpeg);
+    background: url(/img/bg.jpeg);
 }
 
 .form-container{
