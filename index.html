@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code Campus</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div class="header"><!--O cabeçalho da pagina, onde está o titulo-->
+    
+    <header><!--O cabeçalho da pagina, onde está o titulo-->
         <h1>Code Campus</h1>
         <p>Obrigado por ajudar o time a sempre melhorar a plataforma</p>
-    </div>
+    </header>
 
     <!--O formulario a pagina-->
     <div class="form-container">
@@ -73,10 +75,18 @@
 
             <form>
 
-                <input type="radio" value="recommend"> <span>Definitivamente</span>
-                <input type="radio" value="recommend"> <span>Talvez</span>
-                <input type="radio" value="recommend"> <span>Não tenho certeza</span>
-            
+                <label>
+                <input type="radio" name="recommend"> Definitivamente<br>
+                </label>
+
+                <label>
+                <input type="radio" name="recommend"> Talvez<br>
+                </label>
+
+                <label>
+                <input type="radio" name="recommend"> Não tenho certeza
+                </label>
+
             </form>
 
         </div>
@@ -106,13 +116,49 @@
             O que você gostaria de ver melhorar?
             <form>
 
-                <input type="checkbox" value="improved"> <span>Projetos Front End</span>
-                <input type="checkbox" value="improved"> <span>Projetos Back End</span>
-                <input type="checkbox" value="improved"> <span>Desafios</span>
-                <input type="checkbox" value="improved"> <span>Videos</span>
-                <input type="checkbox" value="improved"> <span>Wiki</span>
-                <input type="checkbox" value="improved"> <span>Cursos Adicionais</span>
-                <input type="checkbox" value="improved"> <span>Comunidade Open Source</span>
+                <label>
+                    <input type="checkbox" value="improved"> Projetos Front End<br>
+                </label>
+
+
+                <label>
+                    <input type="checkbox" value="improved"> Projetos Back End<br>
+                </label>
+
+
+                <label>
+                    <input type="checkbox" value="improved"> Desafios<br>
+                </label>
+
+
+                <label>
+                    <input type="checkbox" value="improved"> Videos<br>
+                </label>
+
+
+
+                <label>
+                    <input type="checkbox" value="improved"> Wiki<br>
+                </label>
+
+
+
+                <label>
+                    <input type="checkbox" value="improved"> Cursos Adicionais<br>
+                </label>
+
+
+
+                <label>
+                    <input type="checkbox" value="improved"> Comunidade Open Source<br>
+                </label>
+
+
+
+
+
+
+
 
             </form>
 
@@ -125,7 +171,7 @@
         <div class="comment">
 
             Algum comentario ou sugestão?
-            <form action="">
+            <form>
                 
 
                 <textarea placeholder="Digite aqui seu comentario.."></textarea>

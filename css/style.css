@@ -1,3 +1,170 @@
 /* Importando fonte*/
 @import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+header{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    height: 5rem;
+    margin: 5px;
+    padding-top: 20vh;
+
+    font-family: 'Urbanist', sans-serif;
+    font-size: 25px;
+}
+
+header p{
+    font-size: 17px;
+    font-style: italic;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    flex-direction: column;
+
+    margin-top: 130px;
+    padding: 35px;
+
+    background-color:whitesmoke;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border:2px solid blanchedalmond;
+    border-radius: 5px;
+    
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+
+    padding: 40px;
+    margin: 20px;
+
+
+
+    background-color: blanchedalmond;
+    
+
+    width: 40rem;
+    max-height: 1100px;
+    
+
+
+}
+
+.name{
+    padding-bottom: 20px;
+}
+
+.name input{
+    width: 100%;
+    height: 2rem;
+    border:2px solid #dadada;
+    border-radius: 5px;
+}
+
+
+.email{
+    padding-bottom: 20px;
+}
+
+
+.email input{
+    width: 100%;
+    height: 2rem;
+    border:2px solid #dadada;
+    border-radius: 5px;
+}
+
+
+.age{
+    padding-bottom: 20px;
+}
+
+.age input{
+    width: 100%;
+    height: 2rem;
+    border:2px solid #dadada;
+    border-radius: 5px;
+}
+
+.age span{
+    font-size: 14px;
+}
+
+
+.role{
+    padding-bottom: 20px;
+}
+
+.role select{
+    width: 100%;
+    height: 2rem;  
+    border:2px solid #dadada;
+    border-radius: 5px;
+}
+
+
+.recommend{
+    padding-bottom: 20px;
+}
+
+.recommend form{
+    padding-top: 5px;
+}
+
+
+.feature{
+    padding-bottom: 20px;
+}
+
+.feature select{
+    width: 100%;
+    height: 2rem;  
+    border:2px solid #dadada;
+    border-radius: 5px;
+}
+
+.improved {
+    padding-bottom: 20px;
+}
+
+.improved form{
+    padding-top: 5px;
+}
+
+
+.comment{
+    padding-bottom: 10px;
+}
+
+.comment textarea{
+    width: 100%;
+    height: 7rem;  
+    border:2px solid #dadada;
+    border-radius: 5px;
+}
+
+.submit input{
+    width: 100%;
+    height: 3rem;  
+    border:2px solid #37af65;
+    border-radius: 5px;
+
+    background-color: #37af65;
+}
